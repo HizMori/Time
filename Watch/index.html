@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Часы</title>
+  </head>
+  <body onload="clockTimer();">
+    <div class="clock">
+      <span id="minute"></span>
+      <span id="second"></span>
+    </div>
+    <script>
+      function clockTimer() {
+        var ask = prompt("На какое время сделать тест?", "");
+
+        var minute = document.getElementById("minute");
+        var second = document.getElementById("second");
+      }
+
+      /*let n1 = document.querySelector(".num-first");
+      let n2 = document.querySelector(".num-second");
+      let n3 = document.querySelector(".num-third");
+
+      let counter = prompt("На какое время сделать тест?", "");
+
+      timer_id = setInterval(() => {
+        counter--;
+        n1.innerText = Math.floor(counter / 100);
+        n2.innerText = Math.floor((counter % 100) / 10);
+        n3.innerText = counter % 10;
+        if (counter == 0) clearInterval(timer_id);
+      }, 1000);*/
+    </script>
+  </body>
+</html>
